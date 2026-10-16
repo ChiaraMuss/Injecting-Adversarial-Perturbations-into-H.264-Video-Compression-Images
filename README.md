@@ -5,9 +5,6 @@
 \* Equal contribution
 
 ---
-
-## TL;DR
-
 Video compression tends to wipe out adversarial perturbations, so evasion attacks against video classifiers rarely survive in practice. We inject the perturbations **directly into the quantized transform coefficients of an H.264 bitstream**, producing a valid H.264 stream that still fools synthetic-video detectors. Across all evaluated configurations, our method improves the Attack Success Rate (ASR) over direct H.264 compression by **+20.1 %-pts on average** and **up to +32.5 %-pts**.
 
 ## Abstract

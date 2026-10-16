@@ -46,7 +46,7 @@ A rather static scene and a scene with a camera pan:
 
 | Frame 1 (I) | Frame 16 (P) |
 |:---:|:---:|
-| ![Static scene frame 1](D04_L1S3C4_0001_x4 16.35.01.png) | ![Static scene frame 16](D04_L1S3C4_0001_x4 16.35.01.png) |
+| ![Static scene frame 1](D04_L1S3C4_0001_x4_16.35.01.png) | ![Static scene frame 16](D04_L1S3C4_0001_x4_16.35.01.png) |
 | ![Pan scene frame 1](video73_0001_x4.png) | ![Pan scene frame 16](video73_0016_x4.png) |
 
 ### Failure case: visible artifacts

@@ -29,19 +29,19 @@ Frames 1 (I-frame) and 16 (P-frame) of the attacked H.264 video:
 
 | Frame 1 (I) | Frame 16 (P) |
 |:---:|:---:|
-| ![Attacked frame 1](assets/D01_L2S2C4_0001_x4.png) | ![Attacked frame 16](assets/D01_L2S2C4_0016_x4.png) |
+| ![Attacked frame 1](D01_L2S2C4_0001_x4.png) | ![Attacked frame 16](D01_L2S2C4_0016_x4.png) |
 
 Baseline perturbations `p_B` produced by the attack (concentrated in the region evaluated by 3D-ViT):
 
 | `p_B,1` | `p_B,16` |
 |:---:|:---:|
-| ![p_B frame 1](assets/D01_L2S2C4_0001_attacked_minus_clean.png) | ![p_B frame 16](assets/D01_L2S2C4_0016_attacked_minus_clean.png) |
+| ![p_B frame 1](D01_L2S2C4_0001_attacked_minus_clean.png) | ![p_B frame 16](D01_L2S2C4_0016_attacked_minus_clean.png) |
 
 Effective perturbations `p_E` after injection and decoding (same color scale). They are stronger than `p_B`, show block structure, and "bleed" towards the bottom-right due to intra-prediction; inter-prediction makes this more pronounced over time:
 
 | `p_E,1` | `p_E,16` |
 |:---:|:---:|
-| ![p_E frame 1](assets/D01_L2S2C4_0001_our_minus_clean2.png) | ![p_E frame 16](assets/D01_L2S2C4_0016_our_minus_clean2.png) |
+| ![p_E frame 1](D01_L2S2C4_0001_our_minus_clean2.png) | ![p_E frame 16](D01_L2S2C4_0016_our_minus_clean2.png) |
 
 ### More successfully attacked H.264 videos (QP 23)
 
@@ -49,8 +49,8 @@ A rather static scene and a scene with a camera pan:
 
 | Frame 1 (I) | Frame 16 (P) |
 |:---:|:---:|
-| ![Static scene frame 1](assets/D04_L1S3C4_0001_x4_16_35_01.png) | ![Static scene frame 16](assets/D04_L1S3C4_0016_x4_16_35_01.png) |
-| ![Pan scene frame 1](assets/video73_0001_x4.png) | ![Pan scene frame 16](assets/video73_0016_x4.png) |
+| ![Static scene frame 1](D04_L1S3C4_0001_x4_16_35_01.png) | ![Static scene frame 16](D04_L1S3C4_0016_x4_16_35_01.png) |
+| ![Pan scene frame 1](video73_0001_x4.png) | ![Pan scene frame 16](video73_0016_x4.png) |
 
 ### Failure case: visible artifacts
 
@@ -58,7 +58,7 @@ In homogeneous areas, prediction during decoding can amplify the injected pertur
 
 | Frame 1 (I) | Frame 16 (P) |
 |:---:|:---:|
-| ![Artifact example frame 1](assets/video9_0001_x4.png) | ![Artifact example frame 16](assets/video9_0016_x4.png) |
+| ![Artifact example frame 1](video9_0001_x4.png) | ![Artifact example frame 16](video9_0016_x4.png) |
 
 ## Results
 
